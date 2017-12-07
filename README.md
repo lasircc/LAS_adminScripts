@@ -1,2 +1,2 @@
-# LAS_adminScripts
+# LAS adminScripts
 Admin scripts for basic management of the LAS
