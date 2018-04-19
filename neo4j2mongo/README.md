@@ -1,6 +1,6 @@
 # Dumping Neo4j and loading data into MongoDB
 
-`dump.sh` makes a dump of a (sub)graph of Neo4j and serializes data in JSON into file (*.dump). Finally, it runs `load_dump.py` for loading extracted data into the database `dump` of your local MongoDB instance.
+`dump.sh` makes a dump of a Neo4j (sub)graph and serializes data in JSON into file (*.dump). Finally, it runs `load_dump.py` for loading extracted data into the database `dump` of your local MongoDB instance.
 
 ## MongoDB, final data schema
 
@@ -72,5 +72,6 @@ Get the 1-hop neighborhood of a node harnessing Mongo's aggregation framework:
 
 ## Notes
 
-* For a customized slicing, You may want to define your own subgraph by modifying labels stored in `nodes` in `dump.sh`
+* For a customized slicing, you may want to define your own subgraph by modifying labels stored in `nodes` in `dump.sh`
 * Neo4j queries are executed leveraging Transactional Cypher HTTP endpoint (URLs are sadly hard-coded in `dump.sh`, therefore you need to make them point to the graph instance you are going to dump)
+* Take a look at `requirements.txt` for `pip` requirements.
