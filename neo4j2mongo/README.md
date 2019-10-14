@@ -74,4 +74,4 @@ Get the 1-hop neighborhood of a node harnessing Mongo's aggregation framework:
 
 * For a customized slicing, you may want to define your own subgraph by modifying labels stored in `nodes` in `dump.sh`
 * Neo4j queries are executed leveraging Transactional Cypher HTTP endpoint (URLs are sadly hard-coded in `dump.sh`, therefore you need to make them point to the graph instance you are going to dump)
-* Take a look at `requirements.txt` for `pip` requirements.
+* Take a look at `requirements.txt` for `pip` requirements (TODO: consider using Pipenv).
