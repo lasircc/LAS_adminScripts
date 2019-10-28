@@ -1,6 +1,6 @@
 # Dumping Neo4j and loading data into MongoDB
 
-`dump.sh` makes a dump of a Neo4j (sub)graph and serializes data in JSON into file (*.dump). Finally, it runs `load_dump.py` for loading extracted data into the database `dump` of your local MongoDB instance.
+The bash script `dump.sh` makes a dump of a Neo4j (sub)graph and serializes data in JSON into file (*.dump). Finally, it runs `load_dump.py` for loading extracted data into the database `dump` of your local MongoDB instance.
 
 ## MongoDB, final data schema
 
